@@ -7,3 +7,11 @@ func Factorial(n int) int {
 	}
 	return f
 }
+
+func CubeVolume(n int) int, errpr {
+	if n != 0 {
+		return n * n * n, nil
+	} else {
+		return 0, errors.New("n is zero")
+	}
+}
